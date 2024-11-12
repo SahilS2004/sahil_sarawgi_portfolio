@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .send('service_hw35f5o', 'template_fqs3wcp', formData, 'BA2TKi7ckRbHtAtWp')
+      .send('service_hw35f5o', 'template_fqs3wcp', formData.current, 'BA2TKi7ckRbHtAtWp')
       .then(
         (response) => {
           console.log('Email sent successfully!', response.status, response.text);
@@ -47,7 +47,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faMailBulk} className='contact__card-icon'/>
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">sahilsarawgi1239@gmail.com</span>
-              <a href="sahilsarawgi1239@gmail.com" className="contact__button">
+              <a href="mailto:sahilsarawgi1239@gmail.com" className="contact__button">
                 Write me{' '}
                 <FontAwesomeIcon icon={faArrowRight} className='contact__button-icon'/>
               </a>
@@ -57,7 +57,7 @@ const Contact = () => {
             <FontAwesomeIcon icon={faWhatsapp} className='contact__card-icon'/>
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+91 9532853027</span>
-              <a href="https://api.whatsapp.com/send?phone=999888777" className="contact__button">
+              <a href="https://api.whatsapp.com/send?phone=9532853027&text=Hello,more%20information!" className="contact__button">
                 Write me{' '}
                 <FontAwesomeIcon icon={faArrowRight} className='contact__button-icon'/>
               </a>

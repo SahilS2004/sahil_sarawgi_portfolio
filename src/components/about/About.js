@@ -13,7 +13,7 @@ export default function About() {
             <img src={AboutImg} alt='' className='about__img'/>
                 <div className='about__data'>
                     <Info/>
-                    <p className='about__description'>I am a dedicated full-stack developer with a strong foundation in both frontend and backend technologies. Alongside his expertise in full-stack development, I possesses a solid understanding of basic and advanced data structures and algorithms, enabling him to create efficient, scalable, and user-centric applications.</p>
+                    <p className='about__description'>I am a dedicated full-stack developer with a strong foundation in both frontend and backend technologies. Alongside my expertise in full-stack development, I possess a solid understanding of basic and advanced data structures and algorithms, enabling me to create scalable, and user-centric applications.</p>
                     <a download={CV} href={CV} className='button'>Download CV  
                     <svg
                 class="button__icon"

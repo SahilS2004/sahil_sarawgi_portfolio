@@ -106,19 +106,19 @@ export default function Services() {
                                 </li>
                                 <li className='services__modal-service'>
                                     <FontAwesomeIcon icon={faCheckDouble} className='services__modal-icon'/>
-                                    <p className='services__modal-info'>I provide quick problem solving skills.</p>
+                                    <p className='services__modal-info'>Provide quick problem solving skills.</p>
                                 </li>
                                 <li className='services__modal-service'>
                                     <FontAwesomeIcon icon={faCheckDouble} className='services__modal-icon'/>
-                                    <p className='services__modal-info'>I have Intermediate skills in Dynamic Programming.</p>
+                                    <p className='services__modal-info'>Intermediate skills in Dynamic Programming.</p>
                                 </li>
                                 <li className='services__modal-service'>
                                     <FontAwesomeIcon icon={faCheckDouble} className='services__modal-icon'/>
-                                    <p className='services__modal-info'>I develop the user interface.</p>
+                                    <p className='services__modal-info'>develop the user interface.</p>
                                 </li>
                                 <li className='services__modal-service'>
                                     <FontAwesomeIcon icon={faCheckDouble} className='services__modal-icon'/>
-                                    <p className='services__modal-info'>I develop Efficiency Codes.</p>
+                                    <p className='services__modal-info'>Develop Efficiency Codes.</p>
                                 </li>
                                 {/* ... other list items ... */}
                             </ul>
@@ -153,7 +153,7 @@ export default function Services() {
                                 {/* Same list items as Web Designer */}
                                 <li className='services__modal-service'>
                                     <FontAwesomeIcon icon={faCheckDouble} className='services__modal-icon'/>
-                                    <p className='services__modal-info'>I Node.js & Express.js Based Development.</p>
+                                    <p className='services__modal-info'>Node.js & Express.js Based Development.</p>
                                 </li>
                                 <li className='services__modal-service'>
                                     <FontAwesomeIcon icon={faCheckDouble} className='services__modal-icon'/>
@@ -169,7 +169,7 @@ export default function Services() {
                                 </li>
                                 <li className='services__modal-service'>
                                     <FontAwesomeIcon icon={faCheckDouble} className='services__modal-icon'/>
-                                    <p className='services__modal-info'>I provide RESTful API Development..</p>
+                                    <p className='services__modal-info'>Provide RESTful API Development..</p>
                                 </li>
                                 {/* ... other list items ... */}
                             </ul>

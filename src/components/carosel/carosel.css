@@ -108,7 +108,7 @@
 .scroll-content {
   display: flex;
   align-items: center;
-  animation: scroll 60s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 
 .icon-container {
