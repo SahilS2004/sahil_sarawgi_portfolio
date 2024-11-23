@@ -10,9 +10,11 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    project: '',
+    project: ''
   });
-
+  console.log(formData.name );
+  console.log(formData.email);
+  console.log(formData.project);
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -21,7 +23,11 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .send('service_hw35f5o', 'template_fqs3wcp', formData.current, 'BA2TKi7ckRbHtAtWp')
+      .send('service_hw35f5o', 'template_fqs3wcp', {
+        name: formData.name,
+        email: formData.email,
+        project: formData.project
+      }, 'BA2TKi7ckRbHtAtWp')
       .then(
         (response) => {
           console.log('Email sent successfully!', response.status, response.text);
